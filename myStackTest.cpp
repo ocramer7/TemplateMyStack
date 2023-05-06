@@ -1,12 +1,6 @@
 /* Owen Cramer
  * FRCC CSC2034
  * myStack Program
- * This program calculates math equations using the Reverse Polish
- * notation file holding the equations.
- *
- * Note:
- * MacOS has a difficult time printing CStrings, and for this
- * program needs a secondary array for printing the expressions and evals.
  */
 #include <iostream>
 #include <fstream>
@@ -18,7 +12,7 @@ using namespace std; // using the std namespace
 using namespace Stack;
 
 int main() {
-    myStack<string>* stp;
+    myStack<string> *stp;
     char t[80];
     char* n;
     ifstream ins;
